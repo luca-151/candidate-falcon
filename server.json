@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.candidatefalcon/candidate-falcon",
+  "title": "Candidate Falcon",
+  "description": "Prep for hiring assessments and one-way video interviews, with practice for HireVue-style games.",
+  "websiteUrl": "https://candidatefalcon.com/mcp-connection/",
+  "version": "1.0.0",
+  "icons": [
+    {
+      "src": "https://candidatefalcon.com/icon-512x512.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://candidatefalcon.com/mcp"
+    }
+  ]
+}
